@@ -1668,7 +1668,7 @@ entity = {
 	
 	# Vanilla Overrides
 	
-	attribute = { name = "bs_muscular_1"			blend_shape = "female_bs_neutral" }
+	# attribute = { name = "bs_muscular_1"			blend_shape = "female_bs_neutral" }
 	
 	# Additions
 	

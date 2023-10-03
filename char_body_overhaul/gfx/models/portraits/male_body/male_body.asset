@@ -1837,8 +1837,8 @@ entity = {
 	
 	# Vanilla Overrides
 	
-	attribute = { name = "bs_body_muscular_1"					blend_shape = "male_bs_body_neutral" }
-	attribute = { name = "bs_body_clothed"						blend_shape = "male_bs_body_neutral" }
+	# attribute = { name = "bs_body_muscular_1"					blend_shape = "male_bs_body_neutral" }
+	# attribute = { name = "bs_body_clothed"						blend_shape = "male_bs_body_neutral" }
 	
 	# Additions
 	
