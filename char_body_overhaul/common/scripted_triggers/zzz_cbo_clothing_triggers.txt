@@ -1,4 +1,4 @@
-should_be_naked_sex_event_trigger = {
+﻿should_be_naked_sex_event_trigger = {
 	has_character_flag = sex_animation_event
 }
 

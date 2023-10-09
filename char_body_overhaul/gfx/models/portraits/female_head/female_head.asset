@@ -1,4 +1,4 @@
-pdxmesh = {
+﻿pdxmesh = {
 	name = "female_head_mesh"
 	file = "female_head.mesh"
 	scale = 1.0
