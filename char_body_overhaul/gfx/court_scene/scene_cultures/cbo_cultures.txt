@@ -1,0 +1,116 @@
+﻿
+mediterranean = {
+	trigger = {
+		Not = { has_character_flag = sex_animation_event }
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mediterranean_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					NOT = { prev.religion = religion:islam_religion }
+				}
+			}
+		}
+	}
+}
+
+mena = {
+	trigger = {
+		Not = { has_character_flag = sex_animation_event }
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mena_culture_group_trigger = yes
+				has_graphical_iranian_culture_group_trigger = yes
+				has_graphical_african_culture_group_trigger = yes
+				has_graphical_steppe_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					prev.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+}
+
+indian = {
+	trigger = {
+		Not = { has_character_flag = sex_animation_event }
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_india_culture_group_trigger = yes
+		}
+	}
+}
+
+western = {
+	trigger = {
+		Not = { has_character_flag = sex_animation_event }
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_western_culture_group_trigger = yes
+				has_graphical_norse_culture_group_trigger = yes
+			}
+		}
+	}
+}
+
+bedroom_mediterranean = {
+	trigger = {
+		has_character_flag = sex_animation_event
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mediterranean_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					NOT = { prev.religion = religion:islam_religion }
+				}
+			}
+		}
+	}
+}
+
+bedroom_mena = {
+	trigger = {
+		has_character_flag = sex_animation_event
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_mena_culture_group_trigger = yes
+				has_graphical_iranian_culture_group_trigger = yes
+				has_graphical_african_culture_group_trigger = yes
+				has_graphical_steppe_culture_group_trigger = yes
+				AND = {
+					has_graphical_iberian_culture_group_trigger  = yes
+					prev.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+}
+
+bedroom_indian = {
+	trigger = {
+		has_character_flag = sex_animation_event
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_india_culture_group_trigger = yes
+		}
+	}
+}
+
+bedroom_western = {
+	trigger = {
+		has_character_flag = sex_animation_event
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_western_culture_group_trigger = yes
+				has_graphical_norse_culture_group_trigger = yes
+			}
+		}
+	}
+}
